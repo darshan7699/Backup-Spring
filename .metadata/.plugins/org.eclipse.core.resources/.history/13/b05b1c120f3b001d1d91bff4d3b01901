@@ -1,0 +1,18 @@
+package com.te.springcoreannotation;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Octa implements Processer {
+
+	@Override
+	public void os() {
+     System.out.println("it is a Octa core Processer");		
+	}
+
+	
+
+	
+
+	 
+}

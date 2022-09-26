@@ -1,0 +1,10 @@
+package com.te.springcoreannotation;
+
+public class Snapdragon implements Processer {
+
+	@Override
+	public void os() {
+      System.out.println("That is snapdragon processor");		
+	}
+
+}

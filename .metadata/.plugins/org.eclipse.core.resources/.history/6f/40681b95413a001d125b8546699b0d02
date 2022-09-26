@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean class="com.te.springcoreautowire.Amir" autowire="byName">
+<property name="name" value="Amir"/>
+<property name="age" value="22"/>
+<property name="contactNumber" value="9146410204"/>
+</bean>
+
+<bean name="ph5" class="com.te.springcoreautowire.Phone">
+<property name="brand"  value="OPPO"/>
+<property name="model"  value="RENO"/>
+<property name="price"  value="28000"/>
+</bean>
+
+
+
+
+
+</beans>

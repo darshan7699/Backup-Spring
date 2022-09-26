@@ -1,0 +1,10 @@
+package com.te.springcoreannotation;
+
+public class Octa implements Processer {
+
+	@Override
+	public void os() {
+		System.out.println("Octa core Processor");
+	}
+
+}

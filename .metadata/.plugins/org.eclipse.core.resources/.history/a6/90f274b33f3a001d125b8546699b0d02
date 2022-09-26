@@ -1,0 +1,5 @@
+package com.te.springcoreautowire;
+
+public class Phone {
+
+}

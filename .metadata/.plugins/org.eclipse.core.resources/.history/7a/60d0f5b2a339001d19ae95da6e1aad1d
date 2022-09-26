@@ -1,0 +1,33 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+<bean name="cons" class="com.te.springcore.User">
+    <constructor-arg >
+    <value>Rakan</value>
+    </constructor-arg>
+    <constructor-arg><value>5</value></constructor-arg>
+    <constructor-arg><value>15</value></constructor-arg>
+    <constructor-arg>
+   <ref bean="data"/>
+    </constructor-arg>
+   
+    </bean>
+  
+
+
+</beans>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,59 @@
+package com.te.springcoret2;
+
+public class Employee {
+
+	
+	private String name;
+	private int id;
+	private String dname;
+	
+	private Adress adress;
+
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getDname() {
+		return dname;
+	}
+
+	public void setDname(String dname) {
+		this.dname = dname;
+	}
+
+	public Adress getAdress() {
+		return adress;
+	}
+
+	public void setAdress(Adress adress) {
+		this.adress = adress;
+	}
+
+	public Employee(String name, int id, String dname, Adress adress) {
+		super();
+		this.name = name;
+		this.id = id;
+		this.dname = dname;
+		this.adress = adress;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", id=" + id + ", dname=" + dname + ", adress=" + adress + "]";
+	}
+	
+	
+}

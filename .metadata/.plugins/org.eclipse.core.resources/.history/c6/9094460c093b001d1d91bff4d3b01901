@@ -1,0 +1,11 @@
+package com.te.springcoreannotation;
+
+public class Octa implements Processer {
+
+	@Override
+	public void os() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

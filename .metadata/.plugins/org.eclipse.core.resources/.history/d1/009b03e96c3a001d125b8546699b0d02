@@ -1,0 +1,8 @@
+package com.te.springcoreautowirejavabase;
+
+public class Snippet {
+	public static void main(String[] args) {
+	
+	}
+}
+

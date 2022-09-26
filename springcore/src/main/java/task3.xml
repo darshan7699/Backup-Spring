@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean name="user1" class="com.te.springcoret3.Employee">
+<constructor-arg> <value>Darshan</value>  </constructor-arg>
+<constructor-arg> <value>15000</value>  </constructor-arg>
+<constructor-arg> <value>8</value>  </constructor-arg>
+<constructor-arg> <ref bean="adress"/>  </constructor-arg>
+</bean>
+
+<bean name="adress" class="com.te.springcoret3.Adress">
+<constructor-arg> <value>INDIQUEE</value>  </constructor-arg>
+<constructor-arg> <value>Jayanagar</value>  </constructor-arg>
+<constructor-arg> <value>538000</value>  </constructor-arg>
+</bean>
+
+
+<bean name="adress1" class="com.te.springcoret3.Adress">
+<constructor-arg> <value>Malpani Factory</value>  </constructor-arg>
+<constructor-arg> <value>Akole</value>  </constructor-arg>
+<constructor-arg> <value>422601</value>  </constructor-arg>
+</bean>
+
+
+
+
+
+
+
+
+</beans>

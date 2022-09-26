@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean name="useremp" class="com.te.springcoret2.Employee" >
+<constructor-arg> <value>Rakan</value> </constructor-arg>
+<constructor-arg> <value>10</value> </constructor-arg>
+<constructor-arg> <value>Devlopment</value> </constructor-arg>
+<constructor-arg> <ref bean="adress"/> </constructor-arg>
+</bean>
+
+<bean name="adress" class="com.te.springcoret2.Adress">
+  <property name="area" value="Akole"/>
+  <property name="bno" value="412"/>
+  <property name="pin" value="422601"/>
+</bean>
+
+
+
+
+
+
+
+</beans>

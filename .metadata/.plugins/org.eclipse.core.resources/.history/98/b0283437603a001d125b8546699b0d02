@@ -1,0 +1,23 @@
+package com.te.springcoreautowirejavabase;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class LaptopConfiguration {
+	@Bean
+	public Laptop getLaptop() {
+		Laptop laptop = new Laptop();
+		laptop.setName("Hp");
+		laptop.setOs("Ryzen");
+		laptop.setPrice(43000);
+		
+		laptop.getSc().setDisplay("Amouled Display");
+		laptop.getSc().setHeight(20);
+		laptop.getSc().setResolution("1200px");
+
+		return laptop;
+
+	}
+
+}
