@@ -16,21 +16,25 @@ public class App {
    Employee employee = new Employee();
    employee.setDesignation("Developer");
    employee.setGender("male");
-   employee.setId(50);
-    employee.setName("bc");
+   employee.setId(35);
+    employee.setName("amol");
     employee.setSal(15800);
-    employee.getAdress();
+    
     Adress adress = new Adress();
     adress.setArea("nagar");
-    adress.setLandmark("hajbjhb");
+    adress.setLandmark("24cross");
     adress.setPin(422601);
     
-    adress.getAdd();
+    employee.setAdress(adress);
+    
+   
     Office office = new Office();
-    office.setArea("vJN");
+    office.setArea("bhb");
     office.setLandmark("INDIQUE");
     office.setOfficeName("TECHNO ELEVATE");
     office.setPin(584512);
+    
+   adress.setAdd(office);
     
     transaction.begin();
     createEntityManager.persist(adress);

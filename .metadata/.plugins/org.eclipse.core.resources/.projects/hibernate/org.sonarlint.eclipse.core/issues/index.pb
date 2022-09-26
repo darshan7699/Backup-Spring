@@ -1,8 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-H
-META-INF/persistance.xml,c\e\ce04c90b62b706de2c80fe48f56fad23db1f98fb
 Z
 *src/main/resource/META-INF/persistence.xml,4\6\463e881529785f552f9f41b599bbba20cfb31ff3
 Z
