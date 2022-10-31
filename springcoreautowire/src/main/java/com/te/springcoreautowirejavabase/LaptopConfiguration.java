@@ -1,4 +1,4 @@
-package com.te.springcoreautowirejavabase;
+		package com.te.springcoreautowirejavabase;
 
 import org.springframework.beans.factory.annotation.Autowire;
 import org.springframework.context.annotation.Bean;

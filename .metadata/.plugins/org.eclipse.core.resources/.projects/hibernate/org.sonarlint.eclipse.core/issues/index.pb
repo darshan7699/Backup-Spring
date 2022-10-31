@@ -11,3 +11,13 @@ Z
 ,src/main/java/com/te/hibernate/Employee.java,6\d\6d550c7e2886c1c361ad7f81b342f2f4eab36c7f
 W
 'src/main/java/com/te/hibernate/App.java,5\4\540b96dfd7c715833e670f927e7a296c1114fc09
+Z
+*src/main/java/com/te/onetomany/Swiggy.java,d\c\dc50d8c6d00c93e8a17735980abdaa82460f897f
+X
+(src/main/java/com/te/onetomany/Main.java,d\9\d97cfc04e3063d982370fa6a78937f1c6e096c1d
+\
+,src/main/java/com/te/manytomany/Trainee.java,f\c\fc718c33a51c805dff55f776c68239198abca140
+[
++src/test/java/com/te/hibernate/AppTest.java,b\e\bebfbeb09b114350e444eac3c791ad0bd13e33ff
+a
+1src/main/java/com/te/onetomany/SwiggyAddress.java,4\4\44f935bad1ace00f0755675f463ffc8788e84574

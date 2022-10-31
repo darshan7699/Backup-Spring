@@ -1,9 +1,9 @@
 
+l	java:S125"<This block of commented-out lines of code should be removed.(Š¥àÕÿÿÿÿÿHœ,RMAJORZ
+CODE_SMELL
 a
 java:S1874
-"0Remove this use of "autowire"; it is deprecated.(“©¥×ıÿÿÿÿHÎRMINORZ
+"0Remove this use of "autowire"; it is deprecated.(“©¥×ıÿÿÿÿH›,RMINORZ
 CODE_SMELL
-l	java:S125"<This block of commented-out lines of code should be removed.(Š¥àÕÿÿÿÿÿHÏRMAJORZ
-CODE_SMELL
-l	java:S125"<This block of commented-out lines of code should be removed.(ÕÉ¬¨üÿÿÿÿHĞRMAJORZ
+l	java:S125"<This block of commented-out lines of code should be removed.(ÕÉ¬¨üÿÿÿÿHš,RMAJORZ
 CODE_SMELL

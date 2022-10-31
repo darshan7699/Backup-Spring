@@ -13,5 +13,13 @@ public class Demo extends HttpServlet {
 	public void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter writer = resp.getWriter();
 		writer.println("Welcome to techno elevate");
+		
+		
+	
+		String string = req.getParameter("name");
+		String string2 = req.getParameter("password");
+		
+		writer.println(string);
+		writer.println(string2);
 	}
 }

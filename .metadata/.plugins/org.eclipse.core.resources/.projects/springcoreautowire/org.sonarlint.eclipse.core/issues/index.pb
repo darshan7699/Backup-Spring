@@ -29,3 +29,13 @@ i
 9src/main/java/com/te/springcoreautowirejavabase/Jdbc.java,9\5\95c8185a82a18578c043450aaae11689465b6da8
 G
 src/main/java/phone.xml,7\7\772129d9be080c523cb6cb2905d70b3d4cc57fa5
+a
+1src/main/java/com/te/springcoreautowire/Amir.java,f\4\f44d0aeee5dd0fb4e1c4898a2ca0827f5dedb354
+b
+2src/main/java/com/te/springcoreautowire/Phone.java,b\e\be2dc3fc2ded151592975deabdaaa1d7a611d4a3
+`
+0src/main/java/com/te/springcoreautowire/App.java,1\e\1e4d95a3ab28ab09ccd2010fd6931e0b21a09378
+i
+9src/main/java/com/te/springcoreautowirejavabase/Main.java,7\8\78e200bff7e7edf314b15d85a72ae4dcd0c624bd
+l
+<src/main/java/com/te/springcoreautowirejavabase/Snippet.java,2\a\2a87ae0546662b14a24636f4b1efcbc0df5b6d63

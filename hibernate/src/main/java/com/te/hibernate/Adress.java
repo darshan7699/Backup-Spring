@@ -12,14 +12,14 @@ public class Adress {
 	private String area;
 
 	@OneToOne
-	private Office add;
+	private Office addss;
 
 	public Office getAdd() {
-		return add;
+		return addss;
 	}
 
 	public void setAdd(Office add) {
-		this.add = add;
+		this.addss = add;
 	}
 
 	public String getLandmark() {

@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Spring"/>
+			<item value="D:\Spring\hibernateMapping"/>
+			<item value="D:\Spring\hibernate\src\main\resource\META-INF\persistence.xml"/>
 			<item value="D:\Spring\springcore\src\main\java\com\te\springautowire"/>
 			<item value="D:\Spring\spring"/>
 		</list>
@@ -27,15 +30,29 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.te.hibernate"/>
-			<item value="com.te.hybernate"/>
+			<item value="com.te.mockrest"/>
+			<item value="com.te.coremock"/>
+			<item value="com.te.mockcore"/>
+			<item value="com.te.mockmvc"/>
+			<item value="com.te.mvcpractice"/>
+			<item value="com.te.springrestcrud"/>
+			<item value="com.te.springrest"/>
+			<item value="com.te.springmvcadmin"/>
+			<item value="com.te.springmvctask"/>
 		</list>
 		<list key="groupId">
 			<item value="com.te"/>
 		</list>
 		<list key="artifactId">
-			<item value="hibernate"/>
-			<item value="hybernate"/>
+			<item value="mockrest"/>
+			<item value="coremock"/>
+			<item value="mockcore"/>
+			<item value="mockmvc"/>
+			<item value="mvcpractice"/>
+			<item value="springrestcrud"/>
+			<item value="springrest"/>
+			<item value="springmvcadmin"/>
+			<item value="springmvctask"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -79,5 +96,7 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
 </section>
